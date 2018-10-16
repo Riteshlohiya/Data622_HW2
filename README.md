@@ -47,10 +47,17 @@ When this is called using python score_model.py in the command line, this will i
 3. Critical Thinking (2 points total)
 Modify this ReadMe file to answer the following questions directly in place.
 	1) Kaggle changes links/ file locations/login process/ file content
+	
 	Answer: We need to parameterize the links/ locations and login parameters.
+	
 	2) We run out of space on HD / local permissions issue - can't save files
+	
 	Answer: Constantly monitor the space using some scripts and constantly send the reminders to cleanup the space. Run the code in multiple chunks. Can also use Hadoop. 
+	
 	3) Someone updated python packages and there is unintended effect (functions retired or act differently)
+	
 	Answer: Again use some scripts to see the difference. Grant permissions only to the authorized personals or production control team. Maintain version controlling tools.
+	
 	4) Docker issues - lost internet within docker due to some ip binding to vm or local routing issues( I guess this falls under lost internet, but I am talking more if docker is the cause rather then ISP)
+	
 	Answer: check for system metrics about each host alongside metrics from each of its containers.
